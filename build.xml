@@ -20,6 +20,7 @@
         <junit haltonfailure="true" printsummary="true" showoutput="yes">
             <test name="com.tax.SalesTaxAppTest" />
             <test name="com.tax.ParserTest" />
+            <test name="com.tax.BasketTest" />
             <classpath>
                 <pathelement location="build"/>
                 <path refid="classpath"/>
