@@ -21,6 +21,7 @@
             <test name="com.tax.SalesTaxAppTest" />
             <test name="com.tax.ParserTest" />
             <test name="com.tax.BasketTest" />
+            <test name="com.tax.ItemTest" />
             <classpath>
                 <pathelement location="build"/>
                 <path refid="classpath"/>

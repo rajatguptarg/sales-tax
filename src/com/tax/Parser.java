@@ -20,8 +20,19 @@ public class Parser {
         int size = localTokens.size();
         String value = (localTokens.get(size - 1));
         int requiredIndex = item.length() - value.length() - 4;
-        if (localTokens.contains(Constant.BOOK)) {
+
+        if (localTokens.contains(Constant.IMPORT)) {
+            basket.addItem(new Item(value, Constant.IMPORT, item.substring(0, requiredIndex)));
+        }
+        else if (localTokens.contains(Constant.BOOK)) {
             basket.addItem(new Item(value, Constant.BOOK, item.substring(0, requiredIndex)));
         }
+        else if (localTokens.contains(Constant.MEDICINE)) {
+            basket.addItem(new Item(value, Constant.MEDICINE, item.substring(0, requiredIndex)));
+        }
+        else if (localTokens.contains(Constant.FOOD)) {
+            basket.addItem(new Item(value, Constant.FOOD, item.substring(0, requiredIndex)));
+        }
+
     }
 }

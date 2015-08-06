@@ -10,4 +10,16 @@ public class Item {
         this.type = type;
         this.name = name;
     }
+
+    public double getValue() {
+        return Double.parseDouble(value);
+    }
+
+    public String getType() {
+        return type;
+    }
+
+    public String getName() {
+        return name;
+    }
 }
