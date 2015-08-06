@@ -1,4 +1,4 @@
-package com.tax;
+package com.tax.model;
 
 public class Item {
     private String value;

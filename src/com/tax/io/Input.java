@@ -1,4 +1,4 @@
-package com.tax;
+package com.tax.io;
 
 import java.util.Scanner;
 

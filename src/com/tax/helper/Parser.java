@@ -1,4 +1,7 @@
-package com.tax;
+package com.tax.helper;
+
+import com.tax.controller.Basket;
+import com.tax.model.Item;
 
 import java.util.Arrays;
 import java.util.List;

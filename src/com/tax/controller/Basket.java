@@ -1,4 +1,6 @@
-package com.tax;
+package com.tax.controller;
+
+import com.tax.model.Item;
 
 import java.util.List;
 

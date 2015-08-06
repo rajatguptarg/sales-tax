@@ -1,5 +1,7 @@
-package com.tax;
+package com.tax.controller;
 
+import com.tax.controller.Basket;
+import com.tax.model.Item;
 import org.junit.Test;
 import org.mockito.Mockito;
 

@@ -1,5 +1,7 @@
-package com.tax;
+package com.tax.model;
 
+import com.tax.helper.Constant;
+import com.tax.model.Item;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;

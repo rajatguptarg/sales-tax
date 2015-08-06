@@ -1,4 +1,4 @@
-package com.tax;
+package com.tax.helper;
 
 public class Constant {
     public static final float HOME_RATE = 10;
