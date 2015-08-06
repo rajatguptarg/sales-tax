@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 
-<project name="biblioteca" default="runjunit" basedir=".">
+<project name="sales-tax" default="runjunit" basedir=".">
 
     <property name="lib.dir" value="lib"/>
 
@@ -18,7 +18,7 @@
 
     <target name="runjunit" depends="compile">
         <junit haltonfailure="true" printsummary="true" showoutput="yes">
-            <!--<test name="com.tax.TestFile" />-->
+            <test name="com.tax.SalesTaxAppTest" />
             <classpath>
                 <pathelement location="build"/>
                 <path refid="classpath"/>
@@ -34,7 +34,7 @@
     </target>
 
     <target name="run" depends="createjar">
-        <java classname="com.twu.biblioteca.Main">
+        <java classname="com.tax.Main">
             <arg value="-h"/>
             <classpath>
                 <pathelement location="lib/app.jar"/>
